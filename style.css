@@ -1,0 +1,68 @@
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    background-image: url(assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-position-y: 180px;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #2B2922;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    height: 40vh;
+}
+
+.list {
+    list-style-type: none;
+    color: #f5e3e3;
+    display: flex;
+    gap: 50px;
+    margin-left: 350px;
+    font-weight: 100;
+}
+
+.list-item:hover {
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-small {
+    width: 100px;
+    padding: 8px 0px;
+    background-color: transparent;
+    color: #cfcc20;
+    border: 2px solid #cfcc20;
+    border-radius: 8px;
+}
+
+.button-small:hover {
+    box-shadow: 0px 0px 10px 5px rgba(255,255,0,0.6);
+}
+
+.hero-heading {
+    color: #ffffff;
+    font-size: 4rem;
+    width: 600px;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+}
+
+.dummy-text {
+    color:  #f5e3e3;
+    position: absolute;
+    line-height: 25px;
+    font-size: larger;
+    top: 22%;
+    left: 65%;
+    width: 300px;
+}
